@@ -28,6 +28,8 @@ if (value >= 0) {
     console.log(p);
 } else if (value < 0) {
     console.log(n);
+} else if (value = 0) {
+    console.log('Looks like 0');
 } else {
     console.log('That is no Math');
 }
