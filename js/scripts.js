@@ -18,16 +18,14 @@ console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is eq
 */
 var a = prompt ('Type in value of a'),
 	b = prompt ('Type in value of b'),
-	value = (a * a) - (2 * a * b) + (b * b),
-	p = ('Positive'),
-	n = ('Negative');
+	value = (a * a) - (2 * a * b) + (b * b);
 
 alert(value);
 
 if (value >= 0) {
-    console.log(p);
+    console.log('Positive');
 } else if (value < 0) {
-    console.log(n);
+    console.log('Negative');
 } else if (value = 0) {
     console.log('Looks like 0');
 } else {
