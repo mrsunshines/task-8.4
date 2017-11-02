@@ -8,9 +8,38 @@ var name = prompt('Enter your name');
 */
 
 //script for task 8.5
+/* block excluded for finishing 8.6
 alert("Welcome to my page that will calculate area covered by a triangle of your choice just type in values and clap your hands while this 'state of the art' computer will perform this super complex operation...")
 var	a = prompt ('type in base length'),
 	h = prompt ('type in height'),
 	triangleArea = a*h/2;
 alert(triangleArea);
 console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+*/
+var a = prompt ('Type in value of a'),
+	b = prompt ('Type in value of b'),
+	value = (a * a) - (2 * a * b) + (b * b),
+	p = ('Positive'),
+	n = ('Negative');
+
+alert(value);
+
+if (value >= 0) {
+    console.log(p);
+} else if (value < 0) {
+    console.log(n);
+} else {
+    console.log('That is no Math');
+}
+
+
+
+/*
+if (value >= 0) {
+    console.log(p);
+} else if (value < 0) {
+    console.log(n);
+} else {
+    console.log('no Math');
+} 
+*/
